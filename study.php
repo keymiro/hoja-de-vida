@@ -15,7 +15,21 @@
                 <div class="card-header shadow rounded bg-dark text-white mb-5">
                     <h5 class="card-title"><i class="fa-solid fa-graduation-cap"></i> Estudios</h5>
                 </div>
-               
+                <div class="row">
+                    <div class="col">
+                        <?php include 'components/study/card-primaria.php'; ?>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <?php include 'components/study/card-secundaria.php'; ?>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <?php include 'components/study/card-profesional.php'; ?>
+                    </div>
+                </div>
             </div>
             <div class="card-footer text-muted">
                 <i class="fa-solid fa-copyright"></i> Todos los derechos reservados
