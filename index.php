@@ -17,15 +17,15 @@
                     <h5 class="card-title">Perfil Profesional</h5>
                 </div>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-lg-4 col-sm-12">
                         <?php include 'components/index/list-group.php'; ?>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-sm-12 my-lg-0 my-sm-5">
                         <div class="text-center">
                             <img src="https://definicion.de/wp-content/uploads/2019/07/perfil-de-usuario.png" alt="" class="img-fluid rounded shadow" width="50%">
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-sm-12">
                         <img src="https://talently.tech/blog/wp-content/uploads/2022/02/%C2%BFQue-es-un-framework-en-programacion-scaled-1200x675.jpg" alt="" class="img-fluid rounded shadow mb-5">
                     </div>
                 </div>
