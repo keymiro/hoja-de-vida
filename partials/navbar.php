@@ -37,7 +37,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">
+                    <a class="nav-link" data-bs-toggle="modal" href="#modalContacto">
                         <i class="fa-solid fa-envelope"></i> CONTACTAME
                     </a>
                 </li>
@@ -49,3 +49,44 @@
         </div>
     </div>
 </nav>
+<!-- Modal -->
+<div class="modal fade" id="modalContacto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-dark text-white text-center" style="display: block;">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Formulario de contacto</h1>
+                <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="nombres" class="form-label">Nombres</label>
+                        <input type="text" class="form-control" id="nombres">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="apellidos" class="form-label">Apellidos</label>
+                        <input type="text" class="form-control" id="apellidos">
+                    </div>
+                    <div class="col-12">
+                        <label for="email" class="form-label">Correo</label>
+                        <input type="email" class="form-control" id="email" placeholder="correo electronico">
+                    </div>
+                    <div class="col-12">
+                        <label for="asunto" class="form-label">Asunto</label>
+                        <input type="text" class="form-control" id="asunto" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-12">
+                        <label for="descripcion" class="form-label">Descripción</label>
+                        <textarea class="form-control" id="descripcion">
+
+                        </textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="fa-solid fa-rectangle-xmark"></i></button>
+                <button type="button" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
