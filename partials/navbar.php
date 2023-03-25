@@ -13,18 +13,10 @@
                         <i class="fa-solid fa-graduation-cap"></i> ESTUDIOS
                     </a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <li class="nav-item">
+                    <a class="nav-link" href="job.php">
                         <i class="fa-solid fa-briefcase"></i> EXPERIENCIA LABORAL
                     </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link">
@@ -54,7 +46,7 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header bg-dark text-white text-center" style="display: block;">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                <h1 class="modal-title fs-5 ms-5" id="exampleModalLabel">
                     Formulario de contacto
                     <a type="button" href="" data-bs-dismiss="modal" aria-label="Close" class="ms-5 link-danger">
                         <i class="fa-solid fa-circle-xmark text-danger"></i>
