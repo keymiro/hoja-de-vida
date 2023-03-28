@@ -24,7 +24,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">
+                    <a class="nav-link" href="courses.php">
                         <i class="fa-solid fa-file-contract"></i> CURSOS REALIZADOS
                     </a>
                 </li>
